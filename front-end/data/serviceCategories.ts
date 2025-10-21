@@ -1,4 +1,4 @@
-import { ListOrdered, Utensils, ShoppingCart, Car, Wrench } from "lucide-react";
+import { ListOrdered, Utensils, ShoppingCart, Car, Wrench, PenBox } from "lucide-react";
 import { ServiceCategory } from "@/types";
 
 export const serviceCategories: ServiceCategory[] = [
@@ -7,4 +7,5 @@ export const serviceCategories: ServiceCategory[] = [
   { id: "groceries", name: "Groceries", icon: ShoppingCart },
   { id: "auto", name: "Auto", icon: Car },
   { id: "home", name: "Home", icon: Wrench },
+  { id: "education", name:"Education", icon: PenBox },
 ];
